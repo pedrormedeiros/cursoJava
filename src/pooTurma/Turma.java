@@ -11,6 +11,10 @@ public class Turma {
 		System.out.println("_______________");
 		
 	}
+	
+	public void beberAguaAluno() {
+		beberAgua();
+	}
 		
 	//Métodos
 	void ligarPc() {
@@ -25,6 +29,12 @@ public class Turma {
 	
 	void desligarPc() {
 		System.out.println("Computador desligado");
+		
+	}
+		
+	private void beberAgua() {
+        System.out.println("Ir ao bebedouro para beber água");
+        
 		
 	}
 }      
